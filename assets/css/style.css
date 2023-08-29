@@ -31,6 +31,27 @@ header {
     padding: 0 1rem;
     width: 100%;
     z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 main {
