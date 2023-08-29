@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    padding: 0 1rem;
+    width: 100%;
+    z-index: 99;
+}
+
+main {
+    margin-top: 150px;
+    flex: 1 0 auto;
+}
