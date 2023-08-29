@@ -36,6 +36,11 @@ header {
     align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -54,7 +59,11 @@ nav {
     display: none;
 }
 
+#menu {
+    list-style-type: none;
+}
+
 main {
-    margin-top: 150px;
+    margin-top: 50px;
     flex: 1 0 auto;
 }
