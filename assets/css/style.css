@@ -19,6 +19,7 @@ h1 {
 
 h2 {
     font-family: 'Kavivanar', cursive;
+    text-align: center;
 }
 
 a,
@@ -66,4 +67,20 @@ nav {
 main {
     margin-top: 50px;
     flex: 1 0 auto;
+}
+
+.breed {
+    padding: 2vw;
+}
+
+.rabbit-img img {
+    width: 100%;
+}
+
+.breed span {
+    font-weight: bold;
+}
+
+.breed-name {
+    font-size: 1.5rem;
 }
