@@ -1,3 +1,6 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kavivanar&family=Sarala&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +11,19 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h2 {
+    font-family: 'Kavivanar', cursive;
+}
+
+a,
+p {
+    font-family: 'Sarala', sans-serif;
 }
 
 header {
