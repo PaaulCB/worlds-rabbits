@@ -84,3 +84,34 @@ main {
 .breed-name {
     font-size: 1.5rem;
 }
+
+@media screen and (min-width:768px) {
+    .breed {
+        display: flex;
+        width: 100%;
+        gap: 1vh;
+    }
+
+    .rabbit-img {
+        flex: 0 1 30%;
+    }
+
+    .rabbit-info {
+        flex: 0 1 70%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #info {
+        display: flex;
+        flex-direction: row;
+        column-count: 2;
+    }
+
+    #info-title {
+        position: absolute;
+        width: 100%;
+    }
+}
