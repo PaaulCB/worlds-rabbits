@@ -69,8 +69,9 @@ main {
     flex: 1 0 auto;
 }
 
-.breed {
-    padding: 2vw;
+.breed,
+#fun-facts div {
+    padding: 2.5vw;
 }
 
 .rabbit-img img {
@@ -83,6 +84,10 @@ main {
 
 .breed-name {
     font-size: 1.5rem;
+}
+
+video {
+    width: 98%;
 }
 
 @media screen and (min-width:768px) {
@@ -104,14 +109,18 @@ main {
 }
 
 @media screen and (min-width:1440px) {
-    #info {
+
+    #info,
+    #fun-facts {
         display: flex;
         flex-direction: row;
         column-count: 2;
     }
 
-    #info-title {
+    #info-title,
+    #funfacts-title {
         position: absolute;
         width: 100%;
     }
+
 }
