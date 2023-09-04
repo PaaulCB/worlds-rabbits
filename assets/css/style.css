@@ -90,6 +90,12 @@ video {
     width: 98%;
 }
 
+#contactus-form {
+    padding: 2.5vw;
+    width: 100%;
+    text-align: center;
+}
+
 @media screen and (min-width:768px) {
     .breed {
         display: flex;
