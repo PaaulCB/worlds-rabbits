@@ -11,15 +11,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #f5ebe0;
 }
 
 h1 {
     font-family: 'Amatic SC', cursive;
+    color: #36271c;
 }
 
 h2 {
     font-family: 'Kavivanar', cursive;
     text-align: center;
+    background-color: #d7cac1;
+    text-transform: capitalize;
+    margin: 0 2.5vw;
 }
 
 a,
@@ -35,6 +40,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #d5bdaf;
 }
 
 header a {
@@ -50,6 +56,8 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
+    background-color: #d5bdaf;
+    color: #36271c;
 }
 
 #nav-toggle:checked~nav {
@@ -66,6 +74,10 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+.nav-toggle-label i {
+    color: #36271c;
 }
 
 main {
@@ -108,6 +120,14 @@ video {
     padding: 2vw 0;
 }
 
+footer {
+    background-color: #d5bdaf;
+}
+
+#social-networks i {
+    color: #36271c;
+}
+
 @media screen and (min-width:768px) {
     nav {
         display: block;
@@ -122,6 +142,10 @@ video {
 
     #menu>li {
         padding-left: 2vw;
+    }
+
+    #menu a:hover {
+        background-color: #D7CAC1;
     }
 
     .nav-toggle-label {
