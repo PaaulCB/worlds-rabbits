@@ -112,6 +112,28 @@ video {
     text-align: center;
 }
 
+input,
+textarea,
+button {
+    outline: none;
+    background-color: #f5ebe0;
+    border: 2px solid #d5bdaf;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+button {
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #d7cac1;
+}
+
 #social-networks {
     list-style-type: none;
     display: flex;
