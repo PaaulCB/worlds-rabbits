@@ -195,15 +195,13 @@ footer {
 
     #info,
     #fun-facts {
-        display: flex;
-        flex-direction: row;
-        column-count: 2;
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
-    #info-title,
-    #funfacts-title {
+    h2 {
         position: absolute;
-        width: 100%;
+        width: 95vw;
     }
 
 }
