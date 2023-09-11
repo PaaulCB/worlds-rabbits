@@ -91,7 +91,7 @@ main {
 }
 
 .rabbit-img img {
-    width: 100%;
+    width: 49%;
 }
 
 .breed span {
@@ -148,6 +148,7 @@ footer {
 
 #social-networks i {
     color: #36271c;
+    font-size: 1.3rem;
 }
 
 @media screen and (min-width:768px) {
@@ -178,6 +179,10 @@ footer {
         display: flex;
         width: 100%;
         gap: 1vh;
+    }
+
+    .rabbit-img img {
+        width: 100%;
     }
 
     .rabbit-img {
