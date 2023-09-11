@@ -34,12 +34,12 @@ p {
 
 header {
     position: fixed;
-    padding: 0 1rem;
+    padding: 5px 2.5vw;
     width: 100%;
     z-index: 99;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     background-color: #d5bdaf;
 }
 
@@ -53,7 +53,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 2.5vw;
     display: none;
     top: 100%;
     background-color: #d5bdaf;
@@ -81,7 +81,7 @@ nav {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 51px;
     flex: 1 0 auto;
 }
 
@@ -155,7 +155,7 @@ footer {
         display: block;
         position: relative;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0;
     }
 
     #menu {
@@ -163,7 +163,7 @@ footer {
     }
 
     #menu>li {
-        padding-left: 2vw;
+        padding-left: 2.5vw;
     }
 
     #menu a:hover {
@@ -200,8 +200,8 @@ footer {
     }
 
     h2 {
-        position: absolute;
-        width: 95vw;
+        grid-column: span 2;
+        margin-bottom: 20px;
     }
 
 }
