@@ -30,7 +30,8 @@ h2 {
 }
 
 a,
-p {
+p,
+h3 {
     font-family: 'Sarala', sans-serif;
 }
 
@@ -118,10 +119,16 @@ video {
 input,
 textarea,
 button {
+    padding-left: 5px;
     outline: none;
     background-color: #f5ebe0;
     border: 2px solid #d5bdaf;
     border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 1.3em;
 }
 
 input:focus,
@@ -131,6 +138,7 @@ textarea:focus {
 
 button {
     padding: 5px;
+    font-size: 1.1em;
 }
 
 button:hover {
@@ -170,6 +178,11 @@ footer {
         padding-left: 2.5vw;
     }
 
+    #menu a {
+        padding: 0.3vw 0.7vw;
+        border-radius: 10px;
+    }
+
     #menu a:hover {
         background-color: #D7CAC1;
     }
@@ -196,6 +209,11 @@ footer {
         flex: 0 1 70%;
         padding-top: 39px;
     }
+
+    input {
+        height: 30px;
+    }
+
 }
 
 @media screen and (min-width:1440px) {
