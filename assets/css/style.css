@@ -209,4 +209,8 @@ footer {
         margin-bottom: 20px;
     }
 
+    #funfact-video {
+        grid-row: span 3;
+    }
+
 }
