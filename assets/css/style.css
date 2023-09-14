@@ -111,6 +111,7 @@ main {
 
 video {
     width: 98%;
+    margin-top: 5px;
 }
 
 #contactus-form {
