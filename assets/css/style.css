@@ -16,6 +16,7 @@ body {
     background-color: #f5ebe0;
 }
 
+/*Site fonts*/
 h1 {
     font-family: 'Amatic SC', cursive;
     color: #36271c;
@@ -35,6 +36,7 @@ h3 {
     font-family: 'Sarala', sans-serif;
 }
 
+/*Sticky header*/
 header {
     position: fixed;
     padding: 5px 2.5vw;
@@ -51,6 +53,7 @@ header a {
     color: inherit;
 }
 
+/*Dropdown menu*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -116,6 +119,7 @@ video {
     text-align: center;
 }
 
+/*Contact us form styles*/
 input,
 textarea,
 button {
@@ -145,6 +149,7 @@ button:hover {
     background-color: #d7cac1;
 }
 
+/*Footer styles*/
 #social-networks {
     list-style-type: none;
     display: flex;
@@ -163,6 +168,8 @@ footer {
 }
 
 @media screen and (min-width:768px) {
+
+    /*Remove dropdown menu on medium and wider screens*/
     nav {
         display: block;
         position: relative;
@@ -191,6 +198,7 @@ footer {
         display: none;
     }
 
+    /*Info section layout on medium screens*/
     .breed {
         display: flex;
         width: 100%;
@@ -218,6 +226,7 @@ footer {
 
 @media screen and (min-width:1440px) {
 
+    /*Layout on wider screens*/
     #info,
     #fun-facts {
         display: grid;
