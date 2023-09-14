@@ -1,39 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# WORLD'S RABBITS
 
-Welcome,
+Worlds rabbit it a site that wants to give knowleadge about the differents rabbits breeds. This site will be targeted towards rabbits owners or any people who wants to have a rabbit pet.
+![Website on different screens](assets/images/responsive-site.webp)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+### Existing Features
 
-## Codeanywhere Reminders
+- _Navegation Bar_
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+  - The navegation bar includes links to each section of the website (Info, Fun Facts and Contact Us).
+  - Also there is a dropdown menu for the navegation bar on smaller screens.
+  - This section will allow the user to easily navigate across all the sections of this website.
 
-`python3 -m http.server`
+    ![Navegation Bar](assets/images/navbar.webp)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    ![Dropdown menu](assets/images/dropdown-menu.webp)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- _Info Section_
 
-`http_server`
+  - In this section you will find information about each rabbit, such as a description of its breed, its behavior and its appearance.
+  - The goal of this section is to provide information about rabbits and the differences between them for people who want to know more about their own rabbit or for people who are thinking about adopting one.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    ![Info Section](assets/images/info-section.webp)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- _Fun Facts Section_
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - In this section you will find curious facts about rabbits.
+  - The goal of this section is to increase the reader's interest in rabbits.
 
-To log into the Heroku toolbelt CLI:
+    ![Fun Facts Section](assets/images/info-section.webp)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- _Contact Us Section_
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - In this section there is a form that needs to be filled out correctly in order to be sent.
+  - The goal of this section is for the reader to ask us any questions that have not been resolved when reading the page or to give us some feedback.
 
----
+    ![Contact Us Section](assets/images/contactus-section.webp)
 
-Happy coding!
+- _Footer_
+
+  - The footer includes links to the social media sites for World's Rabbits. The links will open to a new tab.
+  - The footer will allow users to keep connected via social media.
+
+    ![Footer](assets/images/footer.webp)
