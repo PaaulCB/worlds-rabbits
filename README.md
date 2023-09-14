@@ -70,3 +70,32 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - #d5bdaf
   - #D7CAC1
   - #f5ebe0
+
+## Testing
+
+### Manual testing
+
+- _Lighthouse report_
+  Lighthouse report results that we run in incognito mode
+  ![Lighthouse report](assets/images/lighthouse-report.jpg)
+
+### Validator testing
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F&usermedium=all&vextwarning=&warning=1)
+
+### Fixed Bugs
+
+- Pressing any option on the navbar took you where it should but having a sticky header, it covered part of the content. I fixed it by giving this property to the body with the height of the header:
+  > scroll-padding-top: 51px;
+- On larger screens the content was displayed in a single row instead of showing 2 elements per row. I fixed it using CSS grid instead of flexbox:
+
+  > display: grid;
+
+  > grid-template-columns: auto auto;
+
+### Unfixed Bugs
+
+- Pressing any menu option on small screens takes you where it should, but does not close the menu afterwards. This bug is still not fixed because I have not found a way to fix it using only HTML and CSS.
