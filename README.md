@@ -105,20 +105,42 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 ### Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  1. In the GitHub repository, navigate to the Settings tab
-  2. On the left menu go to **Pages**
-  3. From the source section drop-down menu, select the Master Branch
-  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  1. In the GitHub repository, navigate to the Settings tab.
+    
+        ![Settings](assets/images/settings.jpg)
+    
+  2. On the left menu go to **Pages**.
+
+        ![Pages](assets/images/pages.jpg)
+
+  3. From the source section drop-down menu, select Deploy from a branch.
+   
+        ![Branch](assets/images/branch.jpg)
+  4. On the branch section select **main** and folder **/(root)**, then press save.
+  
+        ![Main](assets/images/main.jpg)
+  
+  5. The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+        ![Deployed](assets/images/deploy.jpg)
 
 ### How to clone the repository
 
 1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
 2. Above the list of files, click **Code**.
+   
+   ![Code](assets/images/clone1.jpg)
 3. Copy the URL for the repository.
+   
+   ![URL](assets/images/clone2.jpg)
 4. Open Git Bash.
 5. Change the current working directory to the location you want the cloned directory.
 6. Type **git clone**, and then paste the URL you copied erlier.
+
+         git clone https://github.com/PaaulCB/worlds-rabbits.git
 7. Press **Enter** to create your local clone.
+   
+   ![Clone results](assets/images/clone3.jpg)
 
 ### How to fork the repository
 
