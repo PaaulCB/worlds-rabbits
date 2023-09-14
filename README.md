@@ -29,14 +29,14 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - In this section you will find curious facts about rabbits.
   - The goal of this section is to increase the reader's interest in rabbits.
 
-    ![Fun Facts Section](assets/images/funfacts-section.jpg)
+    ![Fun Facts Section](assets/images/fun-facts-section.jpg)
 
 - _Contact Us Section_
 
   - In this section there is a form that needs to be filled out correctly in order to be sent.
   - The goal of this section is for the reader to ask us any questions that have not been resolved when reading the page or to give us some feedback.
 
-    ![Contact Us Section](assets/images/contactus-section.jpg)
+    ![Contact Us Section](assets/images/contact-us-section.jpg)
 
 - _Footer_
 
@@ -101,8 +101,6 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### Unfixed Bugs
 
-- Pressing any menu option on small screens takes you where it should, but does not close the menu afterwards. This bug is still not fixed because I have not found a way to fix it using only HTML and CSS.
-
 ## Deployment and Local Development
 
 ### Deployment
@@ -134,11 +132,11 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
 2. Above the list of files, click **Code**.
 
-    ![Code](assets/images/clone1.jpg)
+    ![Code](assets/images/clone-step-1.jpg)
 
 3. Copy the URL for the repository.
 
-    ![URL](assets/images/clone2.jpg)
+    ![URL](assets/images/clone-step-2.jpg)
 
 4. Open Git Bash.
 5. Change the current working directory to the location you want the cloned directory.
@@ -148,7 +146,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 7. Press **Enter** to create your local clone.
 
-    ![Clone results](assets/images/clone3.jpg)
+    ![Clone results](assets/images/clone-step-3.jpg)
 
 ### How to fork the repository
 
