@@ -99,3 +99,34 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 ### Unfixed Bugs
 
 - Pressing any menu option on small screens takes you where it should, but does not close the menu afterwards. This bug is still not fixed because I have not found a way to fix it using only HTML and CSS.
+
+## Deployment and Local Development
+
+### Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  1. In the GitHub repository, navigate to the Settings tab
+  2. On the left menu go to **Pages**
+  3. From the source section drop-down menu, select the Master Branch
+  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+### How to clone the repository
+
+1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
+2. Above the list of files, click **Code**.
+3. Copy the URL for the repository.
+4. Open Git Bash.
+5. Change the current working directory to the location you want the cloned directory.
+6. Type **git clone**, and then paste the URL you copied erlier.
+7. Press **Enter** to create your local clone.
+
+### How to fork the repository
+
+1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
+2. In the top-right corner of the page, click **Fork**.
+   ![Fork](assets/images/fork.jpg)
+3. Under "Owner," select the dropdown menu and click an owner for the forked repository.
+4. By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
+5. Optionally, in the "Description" field, type a description of your fork.
+6. Optionally, select **Copy the DEFAULT branch only**.
+7. Click **Create fork**.
