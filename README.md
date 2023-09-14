@@ -44,3 +44,29 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - The footer will allow users to keep connected via social media.
 
     ![Footer](assets/images/footer.webp)
+
+## Design
+
+### Wireframe
+
+- This is a hand-draw wireframe of the info site on different screen sizes.
+  ![Wireframe](assets/images/wireframe.jpg)
+
+### Font and colors
+
+- _Fonts_
+
+  This are the fonts used for this website
+
+  - Amatic SC
+  - Kavivanar
+  - Sarala
+
+- _Colors_
+
+  This are the color used for this website
+
+  - #36271c
+  - #d5bdaf
+  - #D7CAC1
+  - #f5ebe0
