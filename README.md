@@ -3,6 +3,8 @@
 Worlds rabbit it a site that wants to give knowleadge about the differents rabbits breeds. This site will be targeted towards rabbits owners or any people who wants to have a rabbit pet.
 ![Website on different screens](assets/images/responsive-site.jpg)
 
+[World's Rabbits](https://paaulcb.github.io/worlds-rabbits/)
+
 ## Features
 
 ### Existing Features
@@ -67,27 +69,49 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
   This are the color used for this website
 
-  - #36271c
-  - #d5bdaf
-  - #D7CAC1
-  - #f5ebe0
+  - #36271c ![Color #36271c](assets/images/color-36271c.jpg)
+  - #d5bdaf ![Color #d5bdaf](assets/images/color-d5bdaf.jpg)
+  - #d7cac1 ![Color #d7cac1](assets/images/color-d7cac1.jpg)
+  - #f5ebe0 ![Color #f5ebe0](assets/images/color-f5ebe0.jpg)
 
 ## Testing
 
 ### Manual testing
 
+- _Resizing_
+  - When resize to the differents screen sizes it show the content as intended
+- _Navegation bar_
+  - When pressing Info it sends you to info section
+  - When pressing Fun facts it sends you to Fun facts section
+  - When pressing Contact us it sends you to Contact us section
+- _Menu on smallers screens_
+  - When pressing the menu icon it opens the menu options
+    - When pressing Info it sends you to info section
+    - When pressing Fun facts it sends you to Fun facts section
+    - When pressing Contact us it sends you to Contact us section
+  - When pressing the menu icon once the menu options are open it close the menu options
+- _Footer_
+  - When pressing Facebook logo it opens Facebook in a new tab
+  - When pressing Twitter logo it opens Twitter in a new tab
+  - When pressing Youtube logo it opens Youtube in a new tab
+  - When pressing Instagram logo it opens Instagram in a new tab
+  - When pressing Tiktok logo it opens Tiktok in a new tab
+- _Contact us form_
+  - When pressing Cancel it delete all the text in the form fields.
+  - When press Send and one of the fields are empty it show a message on the field that's empty requiering to be fill.
+  - When pressing send and all the fields are correctly fill it opens a congratulations page that shows the data that you put on the fields.
+
+### Validator testing
+
+- _HTML_
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F)
+- _CSS_
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F&usermedium=all&vextwarning=&warning=1)
 - _Lighthouse report_
 
   Lighthouse report results that we run in incognito mode
 
   ![Lighthouse report](assets/images/lighthouse-report.jpg)
-
-### Validator testing
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fpaaulcb.github.io%2Fworlds-rabbits%2F&usermedium=all&vextwarning=&warning=1)
 
 ### Fixed Bugs
 
@@ -129,22 +153,22 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### How to clone the repository
 
-1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
-2. Above the list of files, click **Code**.
+1.  Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
+2.  Above the list of files, click **Code**.
 
     ![Code](assets/images/clone-step-1.jpg)
 
-3. Copy the URL for the repository.
+3.  Copy the URL for the repository.
 
     ![URL](assets/images/clone-step-2.jpg)
 
-4. Open Git Bash.
-5. Change the current working directory to the location you want the cloned directory.
-6. Type **git clone**, and then paste the URL you copied erlier.
+4.  Open Git Bash.
+5.  Change the current working directory to the location you want the cloned directory.
+6.  Type **git clone**, and then paste the URL you copied erlier.
 
          git clone https://github.com/PaaulCB/worlds-rabbits.git
 
-7. Press **Enter** to create your local clone.
+7.  Press **Enter** to create your local clone.
 
     ![Clone results](assets/images/clone-step-3.jpg)
 
@@ -176,7 +200,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 - The icons in the footer and menu were taken from [Font Awesome](https://fontawesome.com/)
 - The code to implement the footer and the dropdown menu was taken from the [love-running project walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 - The steps to fork a repository were taken from [github docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-- The steps to fork a repository were taken from [github docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+- The steps to clone a repository were taken from [github docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - The template to make this README.md was taken from [code institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
 
 ### Media
@@ -195,6 +219,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - <https://rabbits.life/wp-content/uploads/2021/10/MaxPixel.net-Rabbit-Pet-Animal-1485651-1.jpg>
   - <https://64.media.tumblr.com/faaf0d45cf245cd08272a9e64cc50e78/tumblr_potrwcE7ss1uvq9elo1_640.jpg>
   - <https://www.thepetstep.com/wp-content/uploads/2020/01/Belgian-Hare.jpg>
+  - <https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQTZRZT3Wjb30X6GpL6Wdv5KRAzutWVg4ORb1N5-1ysjg_tPG4B>
 
 - The image used for the favicon was taken from [IMGBIN](https://imgbin.com/png/vpzkPgVN/easter-bunny-rabbit-logo-png)
 - The video of this site was taken from [youtube](https://www.youtube.com/watch?v=EgH0pyo5Fbc)
