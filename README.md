@@ -153,22 +153,22 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### How to clone the repository
 
-1.  Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
-2.  Above the list of files, click **Code**.
+1. Go to [World's Rabbits](https://github.com/PaaulCB/worlds-rabbits)
+2. Above the list of files, click **Code**.
 
     ![Code](assets/images/clone-step-1.jpg)
 
-3.  Copy the URL for the repository.
+3. Copy the URL for the repository.
 
     ![URL](assets/images/clone-step-2.jpg)
 
-4.  Open Git Bash.
-5.  Change the current working directory to the location you want the cloned directory.
-6.  Type **git clone**, and then paste the URL you copied erlier.
+4. Open Git Bash.
+5. Change the current working directory to the location you want the cloned directory.
+6. Type **git clone**, and then paste the URL you copied erlier.
 
          git clone https://github.com/PaaulCB/worlds-rabbits.git
 
-7.  Press **Enter** to create your local clone.
+7. Press **Enter** to create your local clone.
 
     ![Clone results](assets/images/clone-step-3.jpg)
 
