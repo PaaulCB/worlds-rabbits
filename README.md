@@ -12,7 +12,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 - _Navegation Bar_
 
   - The navegation bar includes links to each section of the website (Info, Fun Facts and Contact Us).
-  - Also there is a dropdown menu for the navegation bar on smaller screens.
+  - Also there is a dropdown menu for the navegation bar in smaller screens.
   - This section will allow the user to easily navigate across all the sections of this website.
 
     ![Navegation Bar](assets/images/navbar.jpg)
@@ -51,7 +51,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### Wireframe
 
-- This is a hand-draw wireframe of the info site on different screen sizes.
+- This is a hand-draw wireframe of the info section in different screen sizes.
 
   ![Wireframe](assets/images/wireframe.jpg)
 
@@ -98,8 +98,8 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - When pressing Tiktok logo it opens Tiktok in a new tab
 - _Contact us form_
   - When pressing Cancel it delete all the text in the form fields.
-  - When press Send and one of the fields are empty it show a message on the field that's empty requiering to be fill.
-  - When pressing send and all the fields are correctly fill it opens a congratulations page that shows the data that you put on the fields.
+  - When press Send and one of the fields are empty, it shows a message in the field that's empty requiring to be fill.
+  - When pressing send and all the fields are correctly fill, it opens a congratulations page that shows the data that you put in the fields.
 
 ### Validator testing
 
@@ -115,7 +115,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### Fixed Bugs
 
-- Pressing any option on the navbar took you where it should but having a sticky header, it covered part of the content. I fixed it by giving this property to the body with the height of the header:
+- Pressing any option in the navbar took you where it should but having a sticky header, it covered part of the content. I fixed it by giving this property to the body with the height of the header:
   > scroll-padding-top: 51px;
 - On larger screens the content was displayed in a single row instead of showing 2 elements per row. I fixed it using CSS grid instead of flexbox:
 
@@ -129,13 +129,13 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
 ### Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
 
   1. In the GitHub repository, navigate to the Settings tab.
 
      ![Settings](assets/images/settings.jpg)
 
-  2. On the left menu go to **Pages**.
+  2. In the left menu go to **Pages**.
 
      ![Pages](assets/images/pages.jpg)
 
@@ -143,7 +143,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
 
      ![Branch](assets/images/branch.jpg)
 
-  4. On the branch section select **main** and folder **/(root)**, then press save.
+  4. In the branch section select **main** and folder **/(root)**, then press save.
 
      ![Main](assets/images/main.jpg)
 
@@ -198,7 +198,7 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - <https://www.medivet.co.uk/pet-care/pet-advice/facts-about-rabbits/>
 
 - The icons in the footer and menu were taken from [Font Awesome](https://fontawesome.com/)
-- The page where are you send when fill the form and the code to implement the footer and the dropdown menu was taken from the [love-running project walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
+- The page where you send when you fill the form and the code to implement the footer and the dropdown menu was taken from the [love-running project walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 - The steps to fork a repository were taken from [github docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - The steps to clone a repository were taken from [github docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 - The template to make this README was taken from [code institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
