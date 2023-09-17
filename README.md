@@ -198,10 +198,13 @@ Worlds rabbit it a site that wants to give knowleadge about the differents rabbi
   - <https://www.medivet.co.uk/pet-care/pet-advice/facts-about-rabbits/>
 
 - The icons in the footer and menu were taken from [Font Awesome](https://fontawesome.com/)
-- The code to implement the footer and the dropdown menu was taken from the [love-running project walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
+- The page where are you send when fill the form and the code to implement the footer and the dropdown menu was taken from the [love-running project walkthrough](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 - The steps to fork a repository were taken from [github docs](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 - The steps to clone a repository were taken from [github docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-- The template to make this README.md was taken from [code institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+- The template to make this README was taken from [code institute](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+- [Fontjoy](https://fontjoy.com) was used to choose the font families for this project
+- [Coolors](https://coolors.co/) was used to choose the colors for this project
+- [Birme](https://www.birme.net/) was used to crop and change the format of the images
 
 ### Media
 
